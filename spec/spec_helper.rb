@@ -1,8 +1,8 @@
 begin
   require File.dirname(__FILE__) + '/../../../../spec/spec_helper'
-#rescue LoadError
-#  puts "You need to install RSpec in your base app. Add 'rspec-rails' to your Gemfile."
-#  exit
+rescue LoadError
+ puts "You need to install RSpec in your base app. Add 'rspec-rails' to your Gemfile."
+ exit
 end
 
 plugin_spec_dir = File.dirname(__FILE__)
